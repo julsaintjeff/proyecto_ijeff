@@ -1,0 +1,156 @@
+/* color pallet */
+/* 
+#13777F Dark 
+#73F4FF
+#26EEFF Base
+#397A7F
+#1EBECC Light
+*/
+html{
+    font-family: "Nunito", sans-serif;
+}
+
+.container{
+    background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     /* height: 200vh; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.content{
+    background-color: white;
+    /* max-width: 990px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%; */
+    /* height: 80vh; */
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
+    padding: 0.5em;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+header{
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table th,
+.table td{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: #75aaff;
+}
+
+td:nth-of-type(1){
+    font-size: 1.5em;
+    color: #b26b00;
+}
+
+th{
+    display: none;
+}
+
+td{
+    display: block;
+}
+
+.far-star{
+    color:yellow;
+}
+
+/* .inline{
+    display: inline-block;
+ } */
+
+.center{
+    text-align: center;
+}
+.underline{
+border-bottom: solid 5px #75aaff;
+padding-bottom: 15px;
+}
+.item-title{
+    text-align: center;
+}
+.position{
+    background-color: #75aaff;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+/* .actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}*/
+
+.actions{
+    position: sticky;
+    top: 1em;
+    left:0em;
+    display: flex;
+    justify-content: flex-end;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    background-color: #75aaff;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.item-image{
+    display: none;
+
+}
+
+.inline{
+    text-align: center;
+}
+
+iframe{
+    width: 70vw;
+    height: 30vw;
+}
+
+/* pseudoclases
+: hover | : visited | : active | : focus |
+
+*/
+
+
+/* Unidades de medidas en css*/
+/* Unidades fijas , Estaticas o Absoultas
+/* pixeles px, centimetros cm, milemetros mm,picas pc,puntos pt
+
+/*unidad de medida relativas
+
+/* porcentajes %, em, ex X, rem, vh (1%), vw(1%)
+
+/* media querys/*
+
+/* @media (breakpoint)
