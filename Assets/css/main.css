@@ -22,7 +22,7 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 }
 
 .content{
-    background-color: white;
+    background-image: linear-gradient(white, dodgerblue);
     /* max-width: 990px;
     max-height: 600px;
     width: 100%;
@@ -37,16 +37,45 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 }
 
 header{
-    text-align: center;
+    text-align: left;
 }
 
-.table{
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td{
+    padding: 5px;
+}
+.table tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.table th{
+    color: white;
+    background-color: #58595a;
+}
+/* th{
+    text-align: left;
+} */
+
+
+/* .table{
+    text-align: left;
     width: 100%;
     border-spacing: 0;
+    border: 1px solid black;
 }
 
 .table th,
 .table td{
+    text-align: left;
+    display: inline;
     padding: 1em;
     text-align: left;
 }
@@ -61,13 +90,13 @@ td:nth-of-type(1){
 
 th{
     display: none;
-}
+} */
 
-td{
+/* td{
     display: block;
-}
+} */
 
-.far-star{
+.table td i{
     color:yellow;
 }
 
@@ -124,17 +153,18 @@ a{
 }
 
 .item-image{
-    display: none;
+    display: inline;
 
 }
 
 .inline{
+    display: inline;
     text-align: center;
 }
 
 iframe{
-    width: 70vw;
-    height: 30vw;
+    width: 30vw;
+    height: 25.4vw;
 }
 
 /* pseudoclases
