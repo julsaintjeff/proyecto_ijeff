@@ -33,7 +33,7 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
     position: relative;
     padding: 0.5em;
     border-radius: 20px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 header{
